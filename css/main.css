@@ -133,6 +133,8 @@ figure.image-container img {
   max-width: 100%;
   position: relative;
   opacity: 0.4;
+  filter: gray;
+  -webkit-filter: grayscale(100%);
 }
 
 figure.image-container figcaption {
@@ -214,6 +216,8 @@ figure.image-container.hover img {
   opacity: 1;
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+  filter: none;
+  -webkit-filter: grayscale(0%);
 }
 
 figure.image-container:hover h2,
